@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-10-18 10:48:53
+/* Smarty version 3.1.39, created on 2021-10-21 19:19:15
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_616d34f54629f8_72826078',
+  'unifunc' => 'content_6171a113cfe067_02610968',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,14 +18,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_616d34f54629f8_72826078 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6171a113cfe067_02610968 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
 ));
 ?><div class="col-md-6 links">
   <div class="row">
       <div class="col-md-6 wrapper">
       <p class="h3 hidden-sm-down">Products</p>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_83148" data-toggle="collapse">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_40267" data-toggle="collapse">
         <span class="h3">Products</span>
         <span class="float-xs-right">
           <span class="navbar-toggler collapse-icons">
@@ -34,12 +34,12 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
           </span>
         </span>
       </div>
-      <ul id="footer_sub_menu_83148" class="collapse">
+      <ul id="footer_sub_menu_40267" class="collapse">
                   <li>
             <a
                 id="link-product-page-prices-drop-1"
                 class="cms-page-link"
-                href="http://localhost/en/prices-drop"
+                href="http://192.168.56.108/prices-drop"
                 title="Our special products"
                             >
               Prices drop
@@ -49,7 +49,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-new-products-1"
                 class="cms-page-link"
-                href="http://localhost/en/new-products"
+                href="http://192.168.56.108/new-products"
                 title="Our new products"
                             >
               New products
@@ -59,7 +59,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-product-page-best-sales-1"
                 class="cms-page-link"
-                href="http://localhost/en/best-sales"
+                href="http://192.168.56.108/best-sales"
                 title="Our best sales"
                             >
               Best sales
@@ -69,7 +69,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
     </div>
       <div class="col-md-6 wrapper">
       <p class="h3 hidden-sm-down">Our company</p>
-            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_92551" data-toggle="collapse">
+            <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_30774" data-toggle="collapse">
         <span class="h3">Our company</span>
         <span class="float-xs-right">
           <span class="navbar-toggler collapse-icons">
@@ -78,12 +78,12 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
           </span>
         </span>
       </div>
-      <ul id="footer_sub_menu_92551" class="collapse">
+      <ul id="footer_sub_menu_30774" class="collapse">
                   <li>
             <a
                 id="link-cms-page-1-2"
                 class="cms-page-link"
-                href="http://localhost/en/content/1-delivery"
+                href="http://192.168.56.108/content/1-delivery"
                 title="Our terms and conditions of delivery"
                             >
               Delivery
@@ -93,7 +93,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-2-2"
                 class="cms-page-link"
-                href="http://localhost/en/content/2-legal-notice"
+                href="http://192.168.56.108/content/2-legal-notice"
                 title="Legal notice"
                             >
               Legal Notice
@@ -103,7 +103,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-3-2"
                 class="cms-page-link"
-                href="http://localhost/en/content/3-terms-and-conditions-of-use"
+                href="http://192.168.56.108/content/3-terms-and-conditions-of-use"
                 title="Our terms and conditions of use"
                             >
               Terms and conditions of use
@@ -113,7 +113,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-4-2"
                 class="cms-page-link"
-                href="http://localhost/en/content/4-about-us"
+                href="http://192.168.56.108/content/4-about-us"
                 title="Learn more about us"
                             >
               About us
@@ -123,7 +123,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-cms-page-5-2"
                 class="cms-page-link"
-                href="http://localhost/en/content/5-secure-payment"
+                href="http://192.168.56.108/content/5-secure-payment"
                 title="Our secure payment method"
                             >
               Secure payment
@@ -133,7 +133,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-contact-2"
                 class="cms-page-link"
-                href="http://localhost/en/contact-us"
+                href="http://192.168.56.108/contact-us"
                 title="Use our form to contact us"
                             >
               Contact us
@@ -143,7 +143,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-sitemap-2"
                 class="cms-page-link"
-                href="http://localhost/en/sitemap"
+                href="http://192.168.56.108/sitemap"
                 title="Lost ? Find what your are looking for"
                             >
               Sitemap
@@ -153,7 +153,7 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
             <a
                 id="link-static-page-stores-2"
                 class="cms-page-link"
-                href="http://localhost/en/stores"
+                href="http://192.168.56.108/stores"
                 title=""
                             >
               Stores

@@ -2317,7 +2317,7 @@
   ),
   'Link' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Link.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -4027,7 +4027,7 @@
   ),
   'Tools' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Tools.php',
     'type' => 'class',
     'override' => false,
   ),

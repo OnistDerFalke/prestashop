@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-10-18 10:48:53
+/* Smarty version 3.1.39, created on 2021-10-21 19:19:15
   from 'module:pscustomeraccountlinkspsc' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_616d34f547ba73_91572806',
+  'unifunc' => 'content_6171a113d29d33_23891470',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,13 +18,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_616d34f547ba73_91572806 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6171a113d29d33_23891470 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
 ));
 ?>
 <div id="block_myaccount_infos" class="col-md-3 links wrapper">
   <p class="h3 myaccount-title hidden-sm-down">
-    <a class="text-uppercase" href="http://localhost/en/my-account" rel="nofollow">
+    <a class="text-uppercase" href="http://192.168.56.108/my-account" rel="nofollow">
       Your account
     </a>
   </p>
@@ -39,22 +39,22 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
   </div>
   <ul class="account-list collapse" id="footer_account_list">
             <li>
-          <a href="http://localhost/en/identity" title="Personal info" rel="nofollow">
+          <a href="http://192.168.56.108/identity" title="Personal info" rel="nofollow">
             Personal info
           </a>
         </li>
             <li>
-          <a href="http://localhost/en/order-history" title="Orders" rel="nofollow">
+          <a href="http://192.168.56.108/order-history" title="Orders" rel="nofollow">
             Orders
           </a>
         </li>
             <li>
-          <a href="http://localhost/en/credit-slip" title="Credit slips" rel="nofollow">
+          <a href="http://192.168.56.108/credit-slip" title="Credit slips" rel="nofollow">
             Credit slips
           </a>
         </li>
             <li>
-          <a href="http://localhost/en/addresses" title="Addresses" rel="nofollow">
+          <a href="http://192.168.56.108/addresses" title="Addresses" rel="nofollow">
             Addresses
           </a>
         </li>
