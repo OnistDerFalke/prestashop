@@ -151,6 +151,16 @@ $catalogue = new MessageCatalogue('en-US', array (
     'Check / Uncheck all' => 'Check / Uncheck all',
     'Confirm this action' => 'Confirm this action',
   ),
+  'ModulesBlockreassuranceShop' => 
+  array (
+    'Security policy' => 'Security policy',
+    '(edit with the Customer Reassurance module)' => '(edit with the Customer Reassurance module)',
+    'Delivery policy' => 'Delivery policy',
+    'Return policy' => 'Return policy',
+    'Security policy (edit with Customer reassurance module)' => 'Security policy (edit with Customer reassurance module)',
+    'Delivery policy (edit with Customer reassurance module)' => 'Delivery policy (edit with Customer reassurance module)',
+    'Return policy (edit with Customer reassurance module)' => 'Return policy (edit with Customer reassurance module)',
+  ),
   'AdminAdvparametersFeature' => 
   array (
     'Menu' => 'Menu',
@@ -5899,16 +5909,6 @@ Thanks for your patience.',
     'Above footer' => 'Above footer',
     'Below footer' => 'Below footer',
     'Specific position for product page' => 'Specific position for product page',
-  ),
-  'ModulesBlockreassuranceShop' => 
-  array (
-    'Security policy' => 'Security policy',
-    '(edit with the Customer Reassurance module)' => '(edit with the Customer Reassurance module)',
-    'Delivery policy' => 'Delivery policy',
-    'Return policy' => 'Return policy',
-    'Security policy (edit with Customer reassurance module)' => 'Security policy (edit with Customer reassurance module)',
-    'Delivery policy (edit with Customer reassurance module)' => 'Delivery policy (edit with Customer reassurance module)',
-    'Return policy (edit with Customer reassurance module)' => 'Return policy (edit with Customer reassurance module)',
   ),
   'ModulesBlockwishlistAdmin' => 
   array (
