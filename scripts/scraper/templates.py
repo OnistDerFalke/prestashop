@@ -30,5 +30,5 @@ class LampTemplate:
         csv_format += str(self.lamp_quantity) + ";"
         csv_format += str("Kolor lampy:" + self.lamp_attributes[0] + ":1:2,")
         csv_format += str("Materiał lampy:" + self.lamp_attributes[1] + ":1:2,")
-        csv_format += str("Kolor kabla/łańcucha:" + self.lamp_attributes[1] + ":1:2")
+        csv_format += str("Kolor kabla/łańcucha:" + self.lamp_attributes[2] + ":1:2")
         return csv_format
