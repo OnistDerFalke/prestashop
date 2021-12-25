@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  mysql:
+    container_name: mysql_d
+    image: mysql:5.7
+    volumes:
+      - ./dbdumps:/docker-entrypoint-initdb.d/database.sql
+      - /var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_USER: server
+      MYSQL_PASSWORD: Admin123@
+      MYSQL_ROOT_PASSWORD: Admin123@
+      MYSQL_DATABASE: prestadb
+
+  phpmyadmin:
+    container_name: phpmyadmin_d
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8080:80
+    environment:
+      PMA_HOST: mysql_d
+    depends_on:
+      - mysql
+
+  prestashop:
+    container_name: prestashop_d
+    depends_on:
+      - mysql
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    environment:
+      DB_SERVER: mysql_d
+      DB_USER: server
+      DB_PASSWD: Admin123@
+      DB_NAME: prestadb
+      PS_INSTALL_AUTO: 0
+      PS_ERASE_DB: 0
+      PS_DEV_MODE: 0
+      ALLOW_OVERRIDE: 1
+      ADMIN_MAIL: admin@example.com
+      ADMIN_PASSWD: Admin123@
+      PS_DOMAIN: localhost:80
+    volumes:
+      - ./prestashop:/var/www/html
+      #- ./apache:/etc/apache2/sites-available
+      #- ./apachessl:/etc/apache2/conf-available
