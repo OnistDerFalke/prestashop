@@ -1,4 +1,4 @@
-FROM prestashop/prestashop:1.7
+FROM prestashop/prestashop:1.7.7.4
 RUN rm -rf *
 COPY prestashop/ ./
 RUN chown -R www-data:root ./
