@@ -3,8 +3,8 @@
   array (
     'database_host' => 'actina15.maas',
     'database_port' => '3306',
-    'database_name' => 'be_179925_db',
-    'database_user' => 'be_179925',
+    'database_name' => 'BE_179925',
+    'database_user' => 'BE_179925',
     'database_password' => 'Admin123@',
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
